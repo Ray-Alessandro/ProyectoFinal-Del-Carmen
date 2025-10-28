@@ -1,0 +1,35 @@
+.card-img {
+  width: 45%;
+  height: auto;
+  border-radius: 10px;
+  align-self: center;
+  transition: all 0.3s ease;
+}
+
+.card-img:hover {
+  transform: scale(1.05);
+}
+
+.card-title {
+  text-align: center;
+}
+
+.card-text {
+  text-align: center;
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+.btn {
+  align-self: center;
+  width: 50%;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}
+
+.btn:active {
+  transform: scale(1.02);
+}

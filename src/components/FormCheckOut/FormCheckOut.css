@@ -1,0 +1,36 @@
+.container-form-checkout {
+    min-height: 80vh;
+}
+
+.text-field,
+.number-field {
+    transition: all 0.3s ease;
+}
+
+.text-field:focus,
+.number-field:focus {
+    border-color: #0d6efd;
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+
+.btn {
+    margin-top: 1.2rem;
+    transition: all 0.3s ease;
+}
+
+.btn:active {
+    transform: scale(0.95);
+}
+
+#cart-summary .card {
+    border: 1px solid #e0e0e0;
+    transition: all 0.3s ease;
+}
+
+#cart-summary .card:hover {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+#cart-summary img {
+    border-radius: 5px;
+}
